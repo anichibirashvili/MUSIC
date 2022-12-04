@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    padding: 50px 200px;
+    background-color: #000000;
+    display: flex;
+}
+
+h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -999px;
+    display: flex;
+
+}
+
+h1 a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    
+}
+
+nav {
+    width: 90%;
+    margin-left: 150px;
+    padding: 20px 60px;
+   
+   
+}
+
+nav:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    
+}
+
+
+ul li a {
+    color: #ffffff;
+    padding: 5px 10px;
+    text-transform: lowercase;
+    font-size: 18px;
+    
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 250px;
+    right: 0px;
+}
+
+
+.socialitem {
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/fb.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999999999px;
+}
+
+.socialitem a {
+    display: block;
+    width: 50px;
+    height: 50px;
+
+
+}
+.socialitem:hover {
+  background-image: url(../img/facebook.png);
+}
+.socialinst {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 300px;
+    right: 0px;
+
+    
+}
+
+
+.socialiteminst {
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/instagram.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999999999px;
+    
+}
+
+
+.socialiteminst a {
+    display: block;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.socialiteminst:hover {
+    background-image: url(../img/instagram\ copy.png);
+}
+
+.socialiteminst:hover {
+    filter: none;
+}
+
+h2 {
+    width: 100%;
+    padding: 50px 200px;
+    font-size: 24px;
+    clear: both;
+
+}
+
+.today1 {
+    display: flex;
+}
+
+article {
+    width: 20%;
+    margin-left: 100px;
+    
+    margin-top: 30px ;
+    
+}
+
+.charcho {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000000;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    background-position-y: 50px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+
+h3 {
+    padding: 200px 0px 0px 20px;
+    
+}
+
+.charcho p {
+    padding: 20px 0px 0px 20px;
+}
+
+.like {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.charcho:hover .like {
+
+    background-image: url(../img/like\ copy.png);
+}
+
+a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+article p a {
+    color: #000000;
+}
+
+.latest {
+    padding-bottom: 100px;
+}
+
+.latest1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    padding: 30px 200px;
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999999999999px;
+   
+
+}
+
+.logo a {
+    display: block;
+    width: 150px;
+    height: 150px;
+    
+}
+footer nav {
+    margin: 0 ;
+    margin-top: 30px;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+footer ul li {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    flex-direction: column;
+}
+
+footer span {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.pirveli {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    
+}
+.pirveli article {
+    width: 20%;
+    
+}
+
+.pirveli article:hover {
+    background-color: #00000010;
+}
+
+.pirveli h2 {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.pirveli ul li {
+    margin-bottom: 5px;
+}
+
+
+.soundlogo {
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(../img/sound.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    margin-top: 50px;    
+}
+
+.meore {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.meore article {
+    width: 20%;
+}
+
+.meore article:hover {
+    background-color: #00000010;
+}
+
+.meore h2 {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.meore ul li {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+
+
+
+.charcho {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000000;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    background-position-y: 50px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.teksti {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+
+
+
+@media only screen and (max-width: 390px) {
+    header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    header h1 {
+        margin-left: -150px;
+    }
+
+
+    header h1 a {
+        margin-left: -150px;
+    }
+
+    header nav {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        margin-left: -30px;
+    }
+
+    header nav ul {
+        display: block;
+        margin-top: -70px;
+        
+    }
+
+
+
+    .today1  {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .today1 article {
+        width: 60%;
+        
+    }
+
+    .latest1{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .latest1 article {
+        width: 60%;
+    }
+
+
+    footer .logo {
+        margin-left: -60px;
+    }
+
+    footer .logo a {
+        margin-left: -60px;
+    }
+
+
+    footer nav {
+        flex-direction: column;
+        margin-left: -30px;
+
+    }
+
+    footer nav ul {
+        display: block;
+       
+    }
+
+    .pirveli {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pirveli ul {
+        width: 100%;
+    }
+
+    .meore {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .meore ul {
+        width: 100%;
+    }
+
+ 
+
+
+
+    
+
+  }
+
+
+  .inputebi {
+      width: 200px;
+      height: 30px;
+      margin-left: 40px;
+
+  }
+
+  .inputebi label {
+      color: #ffffff;
+
+  }
+
+  #login {
+      width: 200px;
+      border-bottom: 1px;
+      padding: 2px;
+      border-radius: 5px;
+  }
+
+  #Submit {
+      width: 100px;
+      margin-top: 2px;
+      border-radius: 5px;
+  }
+
+  .registration {
+      display: block;
+      width: 200px;
+      color: #ffffff;
+      font-weight: bold;
+  }
+
+  form {
+      width: 600px;
+      margin: 0 auto;
+      background-color: rgb(12, 183, 189);
+      padding: 20px;
+  }
+
+  form input {
+      width: 100%;
+      margin: 10px 0px;
+      padding: 10px;
+  }
